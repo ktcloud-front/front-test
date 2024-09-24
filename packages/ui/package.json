@@ -1,6 +1,6 @@
 {
   "name": "@ktcloud-front/ui",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "private": false,
   "scripts": {
     "dev": "storybook dev -p 6006",
@@ -22,7 +22,8 @@
       "require": "./dist/cjs/index.js",
       "import": "./dist/esm/index.mjs",
       "types": "./dist/index.d.ts"
-    }
+    },
+    "./index.css": "./dist/esm/index.css"
   },
   "dependencies": {
     "@rollup/plugin-commonjs": "^26.0.1",

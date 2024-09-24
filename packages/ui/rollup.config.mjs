@@ -27,9 +27,14 @@ export default [
         exclude: ["**/*.test.ts", "**/*.stories.tsx"]
       }),
       postcss({
-        extract: true,
-      }),
-
+        extensions: ['.css']
+      })
     ],
   },
+  {
+    input: 'dist/index.d.ts',
+    output: [{ file: 'dist/index.d.ts', format: 'es' }],
+    plugins: [dts()],
+    external: [/\.css$/]
+  }
 ];
