@@ -1,5 +1,11 @@
 # @ktcloud-front/ui
 
+## 0.4.0
+
+### Minor Changes
+
+- release test
+
 ## 0.3.0
 
 ### Minor Changes
