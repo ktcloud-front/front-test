@@ -1,3 +1,5 @@
 {
-  "extends": "@repo/typescript-config/index.json"
+  "extends": "@ktcloud-front/typescript-config/index.json",
+  "include": ["src"],
+  "exclude": ["dist", "build", "node_modules", ".turbo"]
 }

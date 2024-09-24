@@ -5,7 +5,10 @@
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "changeset publish"
   },
   "devDependencies": {
     "prettier": "3.3.3",
@@ -20,11 +23,16 @@
     "apps/*",
     "packages/*"
   ],
+  "files": [
+    "dist",
+    "src"
+  ],
   "volta": {
     "node": "20.17.0",
     "npm": "10.8.2"
   },
   "dependencies": {
+    "@changesets/cli": "^2.27.8",
     "@chromatic-com/storybook": "^2.0.2",
     "@storybook/addon-essentials": "^8.3.2",
     "@storybook/addon-interactions": "^8.3.2",

@@ -1,12 +1,6 @@
 {
-  "name": "@repo/typescript-config",
+  "name": "@ktcloud-front/typescript-config",
   "version": "0.0.0",
   "private": true,
-  "license": "MIT",
-  "files": [
-    "index.js"
-  ],
-  "publishConfig": {
-    "access": "public"
-  }
+  "license": "MIT"
 }
