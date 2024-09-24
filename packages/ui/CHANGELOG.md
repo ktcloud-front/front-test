@@ -1,5 +1,11 @@
 # @ktcloud-front/ui
 
+## 3.0.0
+
+### Major Changes
+
+- release test
+
 ## 2.0.0
 
 ### Major Changes

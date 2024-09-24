@@ -1,5 +1,11 @@
 # @ktcloud-front/typescript-config
 
+## 3.0.0
+
+### Major Changes
+
+- release test
+
 ## 2.0.0
 
 ### Major Changes
