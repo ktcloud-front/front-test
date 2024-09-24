@@ -4175,7 +4175,8 @@ var jsxRuntimeExports = jsxRuntime.exports;
  * Primary UI component for user interaction
  */
 const Button = ({ primary = false, size = 'medium', backgroundColor, label, ...props }) => {
-    return (jsxRuntimeExports.jsx("button", { className: '', children: "button" }));
+    const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
+    return (jsxRuntimeExports.jsx("button", { type: "button", className: ['storybook-button', `storybook-button--${size}`, mode].join(' '), ...props, children: label }));
 };
 
 exports.Button = Button;

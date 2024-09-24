@@ -27,14 +27,9 @@ export default [
         exclude: ["**/*.test.ts", "**/*.stories.tsx"]
       }),
       postcss({
-        extensions: ['.css'],
+        extract: true,
       }),
 
     ],
-  },
-  {
-    input: "dist/esm/index.d.ts",
-    output: [{ file: "dist/index.d.ts", format: "esm" }],
-    plugins: [dts()],
   },
 ];
