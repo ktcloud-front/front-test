@@ -1,0 +1,291 @@
+/* [ROOT] */
+:root {
+    /* [REFERENCE TOKEN] */
+    /* [REFERENCE TOKEN] color */
+    --ktc-color-black: #000;
+    --ktc-color-white: #fff;
+    /* [REFERENCE TOKEN] color - gray */
+    --ktc-color-gray-50: #f8f9fa;
+    --ktc-color-gray-100: #f1f3f5;
+    --ktc-color-gray-200: #e9ecef;
+    --ktc-color-gray-300: #dee2e6;
+    --ktc-color-gray-400: #ced4da;
+    --ktc-color-gray-500: #adb5bd;
+    --ktc-color-gray-600: #868e96;
+    --ktc-color-gray-700: #495057;
+    --ktc-color-gray-800: #343a40;
+    --ktc-color-gray-900: #212529;
+    /* [REFERENCE TOKEN] color - red */
+    --ktc-color-red-50: #fff5f5;
+    --ktc-color-red-100: #ffe3e3;
+    --ktc-color-red-200: #ffc9c9;
+    --ktc-color-red-300: #ffa8a8;
+    --ktc-color-red-400: #ff8787;
+    --ktc-color-red-500: #ff6b6b;
+    --ktc-color-red-600: #fa5252;
+    --ktc-color-red-700: #f03e3e;
+    --ktc-color-red-800: #e03131;
+    --ktc-color-red-900: #c92a2a;
+    /* [REFERENCE TOKEN] color - pink */
+    --ktc-color-pink-50: #fff0f6;
+    --ktc-color-pink-100: #ffdeeb;
+    --ktc-color-pink-200: #fcc2d7;
+    --ktc-color-pink-300: #faa2c1;
+    --ktc-color-pink-400: #f783ac;
+    --ktc-color-pink-500: #f06595;
+    --ktc-color-pink-600: #e64980;
+    --ktc-color-pink-700: #d6336c;
+    --ktc-color-pink-800: #c2255c;
+    --ktc-color-pink-900: #a61e4d;
+    /* [REFERENCE TOKEN] color - grape */
+    --ktc-color-grape-50: #f8f0fc;
+    --ktc-color-grape-100: #f3d9fa;
+    --ktc-color-grape-200: #eebefa;
+    --ktc-color-grape-300: #e599f7;
+    --ktc-color-grape-400: #da77f2;
+    --ktc-color-grape-500: #cc5de8;
+    --ktc-color-grape-600: #be4bdb;
+    --ktc-color-grape-700: #ae3ec9;
+    --ktc-color-grape-800: #9c36b5;
+    --ktc-color-grape-900: #862e9c;
+    /* [REFERENCE TOKEN] color - violet */
+    --ktc-color-violet-50: #f3f0ff;
+    --ktc-color-violet-100: #e5dbff;
+    --ktc-color-violet-200: #d0bfff;
+    --ktc-color-violet-300: #b197fc;
+    --ktc-color-violet-400: #9775fa;
+    --ktc-color-violet-500: #845ef7;
+    --ktc-color-violet-600: #7950f2;
+    --ktc-color-violet-700: #7048e8;
+    --ktc-color-violet-800: #6741d9;
+    --ktc-color-violet-900: #5f3dc4;
+    /* [REFERENCE TOKEN] color - indigo */
+    --ktc-color-indigo-50: #edf2ff;
+    --ktc-color-indigo-100: #dbe4ff;
+    --ktc-color-indigo-200: #bac8ff;
+    --ktc-color-indigo-300: #91a7ff;
+    --ktc-color-indigo-400: #748ffc;
+    --ktc-color-indigo-500: #5c7cfa;
+    --ktc-color-indigo-600: #4c6ef5;
+    --ktc-color-indigo-700: #4263eb;
+    --ktc-color-indigo-800: #3b5bdb;
+    --ktc-color-indigo-900: #364fc7;
+    /* [REFERENCE TOKEN] color - blue */
+    --ktc-color-blue-50: #e7f5ff;
+    --ktc-color-blue-100: #d0ebff;
+    --ktc-color-blue-200: #a5d8ff;
+    --ktc-color-blue-300: #74c0fc;
+    --ktc-color-blue-400: #4dabf7;
+    --ktc-color-blue-500: #339af0;
+    --ktc-color-blue-600: #228be6;
+    --ktc-color-blue-700: #1c7ed6;
+    --ktc-color-blue-800: #1971c2;
+    --ktc-color-blue-900: #1864ab;
+    /* [REFERENCE TOKEN] color - cyan */
+    --ktc-color-cyan-50: #e3fafc;
+    --ktc-color-cyan-100: #c5f6fa;
+    --ktc-color-cyan-200: #99e9f2;
+    --ktc-color-cyan-300: #66d9e8;
+    --ktc-color-cyan-400: #3bc9db;
+    --ktc-color-cyan-500: #22b8cf;
+    --ktc-color-cyan-600: #15aabf;
+    --ktc-color-cyan-700: #1098ad;
+    --ktc-color-cyan-800: #0c8599;
+    --ktc-color-cyan-900: #0b7285;
+    /* [REFERENCE TOKEN] color - teal */
+    --ktc-color-teal-50: #e6fcf5;
+    --ktc-color-teal-100: #c3fae8;
+    --ktc-color-teal-200: #96f2d7;
+    --ktc-color-teal-300: #63e6be;
+    --ktc-color-teal-400: #38d9a9;
+    --ktc-color-teal-500: #20c997;
+    --ktc-color-teal-600: #12b886;
+    --ktc-color-teal-700: #0ca678;
+    --ktc-color-teal-800: #099268;
+    --ktc-color-teal-900: #087f5b;
+    /* [REFERENCE TOKEN] color - green */
+    --ktc-color-green-50: #ebfbee;
+    --ktc-color-green-100: #d3f9d8;
+    --ktc-color-green-200: #b2f2bb;
+    --ktc-color-green-300: #8ce99a;
+    --ktc-color-green-400: #69db7c;
+    --ktc-color-green-500: #51cf66;
+    --ktc-color-green-600: #40c057;
+    --ktc-color-green-700: #37b24d;
+    --ktc-color-green-800: #2f9e44;
+    --ktc-color-green-900: #2b8a3e;
+    /* [REFERENCE TOKEN] color - lime */
+    --ktc-color-lime-50: #f4fce3;
+    --ktc-color-lime-100: #e9fac8;
+    --ktc-color-lime-200: #d8f5a2;
+    --ktc-color-lime-300: #c0eb75;
+    --ktc-color-lime-400: #a9e34b;
+    --ktc-color-lime-500: #94d82d;
+    --ktc-color-lime-600: #82c91e;
+    --ktc-color-lime-700: #74b816;
+    --ktc-color-lime-800: #66a80f;
+    --ktc-color-lime-900: #5c940d;
+    /* [REFERENCE TOKEN] color - yellow */
+    --ktc-color-yellow-50: #fff9db;
+    --ktc-color-yellow-100: #fff3bf;
+    --ktc-color-yellow-200: #ffec99;
+    --ktc-color-yellow-300: #ffe066;
+    --ktc-color-yellow-400: #ffd43b;
+    --ktc-color-yellow-500: #fcc419;
+    --ktc-color-yellow-600: #fab005;
+    --ktc-color-yellow-700: #f59f00;
+    --ktc-color-yellow-800: #f08c00;
+    --ktc-color-yellow-900: #e67700;
+    /* [REFERENCE TOKEN] color - orange */
+    --ktc-color-orange-50: #fff4e6;
+    --ktc-color-orange-100: #ffe8cc;
+    --ktc-color-orange-200: #ffd8a8;
+    --ktc-color-orange-300: #ffc078;
+    --ktc-color-orange-400: #ffa94d;
+    --ktc-color-orange-500: #ff922b;
+    --ktc-color-orange-600: #fd7e14;
+    --ktc-color-orange-700: #f76707;
+    --ktc-color-orange-800: #e8590c;
+    --ktc-color-orange-900: #d9480f;
+    /* [REFERENCE TOKEN] font-size */
+    --ktc-font-size-3xs: 10px;
+    --ktc-font-size-2xs: 12px;
+    --ktc-font-size-xs: 14px;
+    --ktc-font-size-s: 16px;
+    --ktc-font-size-m: 20px;
+    --ktc-font-size-l: 24px;
+    --ktc-font-size-xl: 28px;
+    --ktc-font-size-2xl: 32px;
+    --ktc-font-size-3xl: 40px;
+    /* [REFERENCE TOKEN] font-weight */
+    --ktc-font-weight-bold: 400;
+    --ktc-font-weight-semibold: 500;
+    --ktc-font-weight-regular: 700;
+    /* [REFERENCE TOKEN] font-height */
+    --ktc-line-height-3xs: 14px;
+    --ktc-line-height-2xs: 16px;
+    --ktc-line-height-xs: 20px;
+    --ktc-line-height-s: 22px;
+    --ktc-line-height-m: 26px;
+    --ktc-line-height-l: 32px;
+    --ktc-line-height-xl: 36px;
+    --ktc-line-height-2xl: 40px;
+    --ktc-line-height-3xl: 52px;
+    /* [REFERENCE TOKEN] layout - spacing */
+    --ktc-spacing-3xs: 2px;
+    --ktc-spacing-2xs: 4px;
+    --ktc-spacing-xs: 8px;
+    --ktc-spacing-s: 12px;
+    --ktc-spacing-m: 16px;
+    --ktc-spacing-l: 20px;
+    --ktc-spacing-xl: 24px;
+    --ktc-spacing-2xl: 32px;
+    --ktc-spacing-3xl: 40px;
+    /* [REFERENCE TOKEN] object style - border width */
+    --ktc-border-width-thin: 1px;
+    --ktc-border-width-medium: 2px;
+    --ktc-border-width-thick: 4px;
+    /* [REFERENCE TOKEN] object style - radius */
+    --ktc-radius-s: 2px;
+    --ktc-radius-m: 4px;
+    --ktc-radius-l: 6px;
+    /* [REFERENCE TOKEN] object style - shadow */
+    --ktc-shadow-s: 0px 0px 1px rgba(0, 0, 0, 0.05), 0px 1px 1px rgba(0, 0, 0, 0.05);
+    --ktc-shadow-m: 0px 1px 4px rgba(0, 0, 0, 0.06);
+    --ktc-shadow-l: 0px 1px 15px rgba(0, 0, 0, 0.04);
+    /* [SYSTEM TOKEN] */
+    /* [SYSTEM TOKEN] color role */
+    --ktc-color-primary: var(--ktc-color-blue-600);
+    --ktc-color-secondary: var(--ktc-color-teal-600);
+    --ktc-color-background: var(--ktc-color-white);
+    /* [SYSTEM TOKEN] text color */
+    --ktc-color-text-primary: var(--ktc-color-black);
+    --ktc-color-text-secondary: var(--ktc-color-gray-600);
+    --ktc-color-text-link: var(--ktc-color-blue-600);
+    --ktc-color-text-error: var(--ktc-color-red-600);
+    --ktc-color-text-disabled: var(--ktc-color-gray-300);
+    /* [SYSTEM TOKEN] status color */
+    --ktc-color-warning: var(--ktc-color-gray-300);
+    --ktc-color-error: var(--ktc-color-gray-400);
+    --ktc-color-info: var(--ktc-color-gray-500);
+    --ktc-color-success: var(--ktc-color-gray-600);
+    --ktc-color-disabled: var(--ktc-color-gray-700);
+}
+
+/* [COMPONENT TOKEN] text typography */
+.ktc-color-text-primary {
+    color: var(--ktc-color-primary)
+}
+.ktc-color-text-secondary {
+    color: var(--ktc-color-secondary)
+}
+.ktc-color-text-background {
+    color: var(--ktc-color-background)
+}
+.ktc-color-text-warning {
+    color: var(--ktc-color-warning)
+}
+.ktc-color-text-error {
+    color: var(--ktc-color-error)
+}
+.ktc-color-text-info {
+    color: var(--ktc-color-info)
+}
+.ktc-color-text-success {
+    color: var(--ktc-color-success)
+}
+.ktc-color-text-disabled {
+    color: var(--ktc-color-disabled)
+}
+
+/* [COMPONENT TOKEN] typography component token */
+.ktc-typography-heading1 {
+    font-size: var(--ktc-font-size-3xl);
+    line-height: var(--ktc-line-height-3xl);
+    font-weight: var(--ktc-font-weight-semibold);
+}
+.ktc-typography-heading2 {
+    font-size: var(--ktc-font-size-2xl);
+    line-height: var(--ktc-line-height-2xl);
+    font-weight: var(--ktc-font-weight-semibold);
+}
+.ktc-typography-heading3 {
+    font-size: var(--ktc-font-size-xl);
+    line-height: var(--ktc-line-height-xl);
+    font-weight: var(--ktc-font-weight-semibold);
+}
+.ktc-typography-heading4 {
+    font-size: var(--ktc-font-size-l);
+    line-height: var(--ktc-line-height-l);
+    font-weight: var(--ktc-font-weight-semibold);
+}
+.ktc-typography-heading5 {
+    font-size: var(--ktc-font-size-m);
+    line-height: var(--ktc-line-height-m);
+    font-weight: var(--ktc-font-weight-semibold);
+}
+.ktc-typography-subtitle1 {
+    font-size: var(--ktc-font-size-s);
+    line-height: var(--ktc-line-height-s);
+    font-weight: var(--ktc-font-weight-semibold);
+}
+.ktc-typography-subtitle2 {
+    font-size: var(--ktc-font-size-xs);
+    line-height: var(--ktc-line-height-xs);
+    font-weight: var(--ktc-font-weight-semibold);
+}
+.ktc-typography-body1 {
+    font-size: var(--ktc-font-size-xs);
+    line-height: var(--ktc-line-height-xs);
+    font-weight: var(--ktc-font-weight-regular);
+}
+.ktc-typography-body2 {
+    font-size: var(--ktc-font-size-2xs);
+    line-height: var(--ktc-line-height-2xs);
+    font-weight: var(--ktc-font-weight-regular);
+}
+.ktc-typography-caption {
+    font-size: var(--ktc-font-size-3xs);
+    line-height: var(--ktc-line-height-3xs);
+    font-weight: var(--ktc-font-weight-regular);
+}
