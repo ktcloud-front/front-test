@@ -1,5 +1,11 @@
 # @ktcloud-front/eslint-config
 
+## 2.0.0
+
+### Major Changes
+
+- release test
+
 ## 1.0.0
 
 ### Major Changes

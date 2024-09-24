@@ -1,7 +1,7 @@
 {
   "name": "@ktcloud-front/ui",
-  "version": "1.0.0",
-  "private": true,
+  "version": "2.0.0",
+  "private": false,
   "scripts": {
     "dev": "storybook dev -p 6006",
     "build": "storybook build",
