@@ -33,6 +33,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./storybook-static
+          target_branch: gh-pages-front-test
           cname: ktcloud-front.github.io/front-test
 
       # Conditional Deployment to front-dev (for dev branch)
@@ -42,4 +43,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./storybook-static
+          target_branch: gh-pages-front-dev
           cname: ktcloud-front.github.io/front-dev
