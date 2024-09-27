@@ -25,4 +25,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./storybook-static
-          cname: ktcloud-front.github.io/front/dev
+          cname: ktcloud-front.github.io/front-test
