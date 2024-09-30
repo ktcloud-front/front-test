@@ -1,5 +1,11 @@
 # @ktcloud-front/typescript-config
 
+## 8.0.0
+
+### Major Changes
+
+- 8
+
 ## 7.0.0
 
 ### Major Changes
