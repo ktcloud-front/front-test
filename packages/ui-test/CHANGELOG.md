@@ -1,5 +1,11 @@
 # @ktcloud-front/ui-test
 
+## 11.0.0
+
+### Major Changes
+
+- 11
+
 ## 10.0.0
 
 ### Major Changes
