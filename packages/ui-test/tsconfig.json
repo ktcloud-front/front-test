@@ -7,7 +7,7 @@
     "module": "ESNext",
     "outDir": "dist",
     "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
+    "allowImportingTsExtensions": false,
     "emitDeclarationOnly": true,
     "declaration": true,
     "esModuleInterop": true,
