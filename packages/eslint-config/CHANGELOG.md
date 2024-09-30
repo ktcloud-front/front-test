@@ -1,5 +1,11 @@
 # @ktcloud-front/eslint-config
 
+## 13.0.0
+
+### Major Changes
+
+- 13
+
 ## 12.0.0
 
 ### Major Changes
