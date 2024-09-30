@@ -1,10 +1,10 @@
 {
   "name": "@ktcloud-front/ui-test",
-  "version": "9.0.0",
+  "version": "10.0.0",
   "private": false,
   "scripts": {
     "dev": "storybook dev -p 6006",
-    "build": "storybook build && rollup-build-lib",
+    "build": "storybook build && npm run rollup-build-lib",
     "start": "next start",
     "lint": "next lint",
     "build-storybook": "storybook build -o storybook",
