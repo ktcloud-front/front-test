@@ -30,11 +30,5 @@ export default [
         extensions: ['.css']
       })
     ],
-  },
-  {
-    input: 'dist/index.d.ts',
-    output: [{ file: 'dist/index.d.ts', format: 'es' }],
-    plugins: [dts()],
-    external: [/\.css$/]
   }
 ];
