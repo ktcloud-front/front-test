@@ -1,6 +1,6 @@
 {
   "name": "@ktcloud-front/ui-test",
-  "version": "6.0.0",
+  "version": "7.0.0",
   "private": false,
   "scripts": {
     "dev": "storybook dev -p 6006",
