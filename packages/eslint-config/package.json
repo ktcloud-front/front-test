@@ -1,6 +1,6 @@
 {
   "name": "@ktcloud-front/eslint-config",
-  "version": "13.0.0",
+  "version": "14.0.0",
   "private": true,
   "main": "index.js",
   "devDependencies": {
